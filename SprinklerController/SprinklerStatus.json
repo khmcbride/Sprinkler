@@ -1,0 +1,58 @@
+{
+  "override": {
+    "enabled": true,
+    "stopTime": "2017-10-16 10:19:26.967718",
+    "duration": 4,
+    "zoneId": 2
+  },
+  "zones": [
+    {
+      "state": "off",
+      "lastRunTime": "2017-10-21 02:30:00.351107",
+      "zoneId": 1,
+      "name": "Front Bushes"
+    },
+    {
+      "state": "off",
+      "lastRunTime": "2017-10-21 02:32:00.542776",
+      "zoneId": 2,
+      "name": ""
+    },
+    {
+      "state": "off",
+      "lastRunTime": "2017-10-21 02:34:00.729929",
+      "zoneId": 3,
+      "name": ""
+    },
+    {
+      "state": "off",
+      "lastRunTime": "2017-10-04 19:36:53.951701",
+      "zoneId": 4,
+      "name": ""
+    },
+    {
+      "state": "off",
+      "lastRunTime": "2017-10-21 02:36:00.916377",
+      "zoneId": 5,
+      "name": ""
+    },
+    {
+      "state": "off",
+      "lastRunTime": "2017-10-21 02:38:01.103884",
+      "zoneId": 6,
+      "name": ""
+    },
+    {
+      "state": "off",
+      "lastRunTime": "2017-10-21 02:40:01.284075",
+      "zoneId": 7,
+      "name": ""
+    },
+    {
+      "state": "on",
+      "lastRunTime": "2017-09-20 12:44:28.609220",
+      "zoneId": 8,
+      "name": ""
+    }
+  ]
+}
