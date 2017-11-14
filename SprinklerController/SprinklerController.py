@@ -96,14 +96,17 @@ class ControllerThread(threading.Thread):
 	relay_enable_pin = 26
 	zone_to_gpio_mapping = dict([(1,5),
 		(2,6),
-		(3,13),
+		(8,13),#(3,13),
 		(4,19),
 		(5,12),
 		(6,16),
 		(7,20),
-		(8,21)])
+		(3,21)])
+		#(8,21)])
 	last_start_time = None
+	is_relay_enabled = False
 	enabled_zones = []
+	
 
 	def __init__(self):
 		super(ControllerThread,self).__init__()
@@ -251,10 +254,36 @@ class ControllerThread(threading.Thread):
 			GPIO.setup(pin, GPIO.OUT)
 
 	def PowerRelayOff(self):
+		if self.is_relay_enabled == False:
+			return
+
+		self.is_relay_enabled = False;
 		GPIO.output(self.relay_enable_pin, GPIO.LOW)
+		t.sleep(0.3)
+		GPIO.output(self.relay_enable_pin, GPIO.HIGH)
+		t.sleep(0.3)
+		GPIO.output(self.relay_enable_pin, GPIO.LOW)
+		t.sleep(0.3)
+		GPIO.output(self.relay_enable_pin, GPIO.HIGH)
+		t.sleep(0.3)
+		GPIO.output(self.relay_enable_pin, GPIO.LOW)
+		
 
 	def PowerRelayOn(self):
+		if self.is_relay_enabled == True:
+			return
+
+		self.is_relay_enabled = True;
 		GPIO.output(self.relay_enable_pin, GPIO.HIGH)
+		t.sleep(0.3)
+		GPIO.output(self.relay_enable_pin, GPIO.LOW)
+		t.sleep(0.3)
+		GPIO.output(self.relay_enable_pin, GPIO.HIGH)
+		t.sleep(0.3)
+		GPIO.output(self.relay_enable_pin, GPIO.LOW)
+		t.sleep(0.3)
+		GPIO.output(self.relay_enable_pin, GPIO.HIGH)
+		
 
 	def AllZonesOff(self):
 		self.PowerRelayOff()
@@ -274,7 +303,6 @@ class ControllerThread(threading.Thread):
 			return
 		self.PowerRelayOn()
 		GPIO.output(self.zone_to_gpio_mapping.get(activeZone), self.ZONE_ON)
-
 	
 
 	def run(self):

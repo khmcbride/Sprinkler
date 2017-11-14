@@ -2,42 +2,42 @@
   "sched": {
     "enabled": true,
     "startTime": "02:30",
-    "days": [ 2, 4, 6 ],
+    "days": [ 1,2, 3,4,5, 6,7 ],
     "zones": [
       {
         "zoneId": 1,
         "enabled": true,
-        "durationMinutes": "8"
+        "durationMinutes": "2"
       },
       {
         "zoneId": 2,
         "enabled": true,
-        "durationMinutes": "8"
+        "durationMinutes": "6"
       },
       {
         "zoneId": 3,
         "enabled": true,
-        "durationMinutes": "8"
+        "durationMinutes": "10"
       },
       {
         "zoneId": 4,
         "enabled": true,
-        "durationMinutes": "8"
+        "durationMinutes": "1"
       },
       {
         "zoneId": 5,
         "enabled": true,
-        "durationMinutes": "8"
+        "durationMinutes": "2"
       },
       {
         "zoneId": 6,
         "enabled": true,
-        "durationMinutes": "8"
+        "durationMinutes": "3"
       },
       {
         "zoneId": 7,
         "enabled": true,
-        "durationMinutes": "8"
+        "durationMinutes": "5"
       },
       {
         "zoneId": 8,

@@ -1,0 +1,58 @@
+{
+  "override": {
+    "duration": 4,
+    "stopTime": "2017-11-05 16:30:38.258847",
+    "enabled": true,
+    "zoneId": 3
+  },
+  "zones": [
+    {
+      "name": "Front Bushes",
+      "zoneId": 1,
+      "lastRunTime": "2017-11-06 02:30:01.917811",
+      "state": "off"
+    },
+    {
+      "name": "Front N Lawn Near House",
+      "zoneId": 2,
+      "lastRunTime": "2017-11-06 02:32:04.496647",
+      "state": "off"
+    },
+    {
+      "name": "Front N Lawn Near Sidewalk",
+      "zoneId": 3,
+      "lastRunTime": "2017-11-06 02:36:07.233105",
+      "state": "off"
+    },
+    {
+      "name": "Back N Lawn",
+      "zoneId": 4,
+      "lastRunTime": "2017-11-06 02:48:08.563673",
+      "state": "off"
+    },
+    {
+      "name": "Back S Lawn",
+      "zoneId": 5,
+      "lastRunTime": "2017-11-06 02:49:11.063988",
+      "state": "off"
+    },
+    {
+      "name": "Front S Lawn",
+      "zoneId": 6,
+      "lastRunTime": "2017-11-06 02:51:13.639556",
+      "state": "off"
+    },
+    {
+      "name": "Sidewalk Along Alpine Cove",
+      "zoneId": 7,
+      "lastRunTime": "2017-11-06 02:54:16.294879",
+      "state": "off"
+    },
+    {
+      "name": "",
+      "zoneId": 8,
+      "lastRunTime": "2017-09-20 12:44:28.609220",
+      "state": "off"
+    }
+  ]
+}

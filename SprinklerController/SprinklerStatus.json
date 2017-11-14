@@ -1,58 +1,58 @@
 {
-  "override": {
-    "enabled": true,
-    "stopTime": "2017-10-16 10:19:26.967718",
-    "duration": 4,
-    "zoneId": 2
-  },
   "zones": [
     {
-      "state": "off",
-      "lastRunTime": "2017-10-21 02:30:00.351107",
       "zoneId": 1,
-      "name": "Front Bushes"
+      "name": "Front Bushes",
+      "state": "off",
+      "lastRunTime": "2017-11-14 02:30:01.817944"
     },
     {
-      "state": "off",
-      "lastRunTime": "2017-10-21 02:32:00.542776",
       "zoneId": 2,
-      "name": ""
+      "name": "Front N Lawn Near House",
+      "state": "off",
+      "lastRunTime": "2017-11-14 02:32:04.400061"
     },
     {
-      "state": "off",
-      "lastRunTime": "2017-10-21 02:34:00.729929",
       "zoneId": 3,
-      "name": ""
+      "name": "Front N Lawn Near Sidewalk",
+      "state": "off",
+      "lastRunTime": "2017-11-14 02:38:07.285785"
     },
     {
-      "state": "off",
-      "lastRunTime": "2017-10-04 19:36:53.951701",
       "zoneId": 4,
-      "name": ""
+      "name": "Back N Lawn",
+      "state": "off",
+      "lastRunTime": "2017-11-14 02:48:10.474899"
     },
     {
-      "state": "off",
-      "lastRunTime": "2017-10-21 02:36:00.916377",
       "zoneId": 5,
-      "name": ""
+      "name": "Back S Lawn",
+      "state": "off",
+      "lastRunTime": "2017-11-14 02:49:12.979056"
     },
     {
-      "state": "off",
-      "lastRunTime": "2017-10-21 02:38:01.103884",
       "zoneId": 6,
-      "name": ""
-    },
-    {
+      "name": "Front S Lawn",
       "state": "off",
-      "lastRunTime": "2017-10-21 02:40:01.284075",
-      "zoneId": 7,
-      "name": ""
+      "lastRunTime": "2017-11-14 02:51:15.557215"
     },
     {
-      "state": "on",
-      "lastRunTime": "2017-09-20 12:44:28.609220",
+      "zoneId": 7,
+      "name": "Sidewalk Along Alpine Cove",
+      "state": "off",
+      "lastRunTime": "2017-11-14 02:54:18.215455"
+    },
+    {
       "zoneId": 8,
-      "name": ""
+      "name": "",
+      "state": "off",
+      "lastRunTime": "2017-09-20 12:44:28.609220"
     }
-  ]
+  ],
+  "override": {
+    "zoneId": 2,
+    "duration": 0.3,
+    "stopTime": "2017-11-12 18:04:35.914595",
+    "enabled": true
+  }
 }
